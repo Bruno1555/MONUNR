@@ -1,0 +1,13 @@
+nav .navbar-brand
+{
+    font-size: xx-large;
+    font-size: arial;
+    font-style: bold;
+    font-weight: 800;
+}
+
+/* colors */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}

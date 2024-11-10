@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title%}
+ERROR
+{% endblock %}
+
+{% block main %}
+<img class="border img-fluid" src="https://api.memegen.link/images/custom/{{top | urlencode}}/{{bottom | urlencode}}.jpg?background=https://i.kym-cdn.com/entries/icons/original/000/047/907/GDao2PaXIAA5Aq3.jpg&width=500" alt="{{ top }}">
+{% endblock %}
